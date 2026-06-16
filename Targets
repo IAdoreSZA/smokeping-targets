@@ -1,0 +1,373 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Monitor
+remark = SmokePing latency monitor — powered by Docker
+
+# -----------------------------------------------
+# DNS Resolvers
+# -----------------------------------------------
++ DNS
+menu = DNS Resolvers
+title = Public DNS Resolvers
+
+++ Cloudflare-Primary
+menu = Cloudflare DNS - Primary
+title = Cloudflare DNS - Primary (1.1.1.1)
+host = 1.1.1.1
+
+++ Cloudflare-Secondary
+menu = Cloudflare DNS - Secondary
+title = Cloudflare DNS - Secondary (1.0.0.1)
+host = 1.0.0.1
+
+++ Google-Primary
+menu = Google DNS - Primary
+title = Google DNS - Primary (8.8.8.8)
+host = 8.8.8.8
+
+++ Google-Secondary
+menu = Google DNS - Secondary
+title = Google DNS - Secondary (8.8.4.4)
+host = 8.8.4.4
+
+++ NextDNS-Primary
+menu = NextDNS DNS - Primary
+title = NextDNS DNS - Primary (45.90.28.217)
+host = 45.90.28.217
+
+++ NextDNS-Secondary
+menu = NextDNS DNS - Secondary
+title = NextDNS DNS - Secondary (45.90.30.217)
+host = 45.90.30.217
+
+++ ControlD-Primary
+menu = Control D - Primary
+title = Control D - Primary (76.76.2.0)
+host = 76.76.2.0
+
+++ ControlD-Secondary
+menu = Control D - Secondary
+title = Control D - Secondary (76.76.10.0)
+host = 76.76.10.0
+
+++ Quad9-Primary
+menu = Quad9 DNS - Primary
+title = Quad9 DNS - Primary (9.9.9.9)
+host = 9.9.9.9
+
+++ Quad9-Secondary
+menu = Quad9 DNS - Secondary
+title = Quad9 DNS - Secondary (149.112.112.112)
+host = 149.112.112.112
+
+++ Adguard-Primary
+menu = Adguard DNS - Primary
+title = Adguard DNS - Primary (94.140.14.14)
+host = 94.140.14.14
+
+++ Adguard-Secondary
+menu = Adguard DNS - Secondary
+title = Adguard DNS - Secondary (94.140.15.15)
+host = 94.140.15.15
+
+++ FlashStart-Primary
+menu = FlashStart DNS - Primary
+title = FlashStart DNS - Primary (185.236.104.104)
+host = 185.236.104.104
+
+++ FlashStart-Secondary
+menu = FlashStart DNS - Secondary
+title = FlashStart DNS - Secondary (185.236.105.105)
+host = 185.236.105.105
+
+++ CleanBrowsing-Primary
+menu = CleanBrowsing DNS - Primary 
+title = CleanBrowsing DNS - Primary (185.228.168.168)
+host = 185.228.168.168
+
+++ CleanBrowsing-Secondary
+menu = CleanBrowsing DNS - Secondary 
+title = CleanBrowsing DNS - Secondary (185.228.169.168)
+host = 185.228.169.168
+
+++ OpenDNS-Primary
+menu = OpenDNS DNS - Primary
+title = OpenDNS DNS - Primary (208.67.222.222)
+host = 208.67.222.222
+
+++ OpenDNS-Secondary
+menu = OpenDNS DNS - Secondary
+title = OpenDNS DNS - Seconary (208.67.220.220)
+host = 208.67.220.220
+
+++ Mullvad-Primary
+menu = Mullvad DNS
+title = Mullvad DNS (194.242.2.2)
+host = 194.242.2.2
+
+++ LibreDNS-Primary
+menu = LibreDNS DNS - Primary
+title = LibreDNS DNS - Primary (116.202.176.26)
+host = 116.202.176.26
+
+++ LibreDNS-Secondary
+menu = LibreDNS DNS - Secondary
+title = LibreDNS DNS - Secondary (147.135.76.183)
+host = 147.135.76.183
+
+++ Comcast-Xfinity-Primary
+menu = Comcast Xfinity DNS - Primary
+title = Comcast Xfinity DNS - Primary (75.75.75.75)
+host = 75.75.75.75
+
+++ Comcast-Xfinity-Secondary
+menu = Comcast Xfinity DNS - Secondary
+title = Comcast Xfinity DNS - Secondary (75.75.76.76)
+host = 75.75.76.76
+
+++ AliDNS-Primary
+menu = AliDNS DNS - Primary
+title = AliDNS DNS - Primary (223.5.5.5)
+host = 223.5.5.5
+
+++ AliDNS-Secondary
+menu = AliDNS DNS - Secondary
+title = AliDNS DNS - Secondary (223.6.6.6)
+host = 223.6.6.6
+
+++ NordVPN-Primary
+menu = NordVPN DNS - Primary
+title = NordVPN DNS - Primary (103.86.96.100)
+host = 103.86.96.100
+
+++ NordVPN-Secondary
+menu = NordVPN DNS - Secondary
+title = NordVPN DNS - Secondary (103.86.99.100)
+host = 103.86.99.100
+
+# -----------------------------------------------
+# Hosters
+# -----------------------------------------------
++ Hosters
+menu = Hosters
+title = Hosters
+
+++ Vultr
+menu = Vultr
+title = Vultr
+
++++ Vultr-Aus-Syd
+menu = Vultr Australia (Sydney)
+title = Vultr Australia (Sydney)
+host = syd-au-ping.vultr.com
+
++++ Vultr-Aus-Mel
+menu = Vultr Australia (Melbourne)
+title = Vultr Australia (Melbourne)
+host = mel-au-ping.vultr.com
+
++++ Vultr-US-Haw-Hon
+menu = Vultr United States - Hawaii (Honolulu)
+title = Vultr United States - Hawaii (Honolulu)
+host = hon-hi-us-ping.vultr.com
+
++++ Vultr-Sin
+menu = Vultr Singapore
+title = Vultr Singapore
+host = sgp-ping.vultr.com
+
++++ Vultr-Jap-Tok
+menu = Vultr Japan (Tokyo)
+title = Vultr Japan (Tokyo)
+host = hnd-jp-ping.vultr.com
+
++++ Vultr-Jap-Osa
+menu = Vultr Japan (Osaka)
+title = Vultr Japan (Osaka)
+host = osk-jp-ping.vultr.com
+
++++ Vultr-SoK-Seo
+menu = Vultr South Korea (Seoul)
+title = Vultr South Korea (Seoul)
+host = sel-kor-ping.vultr.com
+
++++ Vultr-Chi-San
+menu = Vultr Chile (Santiago)
+title = Vultr Chile (Santiago)
+host = scl-cl-ping.vultr.com
+
++++ Vultr-US-Cal-LoA
+menu = Vultr United States - California (Los Angeles)
+title = Vultr United States - California (Los Angeles)
+host = lax-ca-us-ping.vultr.com
+
++++ Vultr-US-Cal-Sil
+menu = Vultr United States - California (Silicon Valley)
+title = Vultr United States - California (Silicon Valley)
+host = sjo-ca-us-ping.vultr.com
+
++++ Vultr-Mex-Mex
+menu = Vultr Mexico (Mexico City)
+title = Vultr Mexico (Mexico City)
+host = mex-mx-ping.vultr.com
+
++++ Vultr-US-Was-Sea
+menu = Vultr United States - Washington (Seattle)
+title = Vultr United States - Washington (Seattle) 
+host = wa-us-ping.vultr.com
+
++++ Vultr-Ind-Ban
+menu = Vultr India (Bangalore)
+title = Vultr India (Bangalore)
+host = blr-in-ping.vultr.com
+
++++ Vultr-US-Tex-Dal
+menu = Vultr United States - Texas (Dallas)
+title = Vultr United States - Texas (Dallas)
+host = tx-us-ping.vultr.com
+
++++ Vultr-Bra-Sao
+menu = Vultr Brazil (São Paulo)
+title = Vultr Brazil (São Paulo)
+host = sao-br-ping.vultr.com
+
++++ Vultr-SoA-Joh
+menu = Vultr South Africa (Johannesburg)
+title = Vultr South Africa (Johannesburg)
+host = jnb-za-ping.vultr.com
+
++++ Vultr-Ind-Mum
+menu = Vultr India (Mumbai)
+title = Vultr India (Mumbai)
+host = bom-in-ping.vultr.com
+
++++ Vultr-Ind-DelN
+menu = Vultr India (Delhi)
+title = Vultr India (Delhi)
+host = del-in-ping.vultr.com
+
++++ Vultr-US-Flo-Mia
+menu = Vultr United States - Florida (Miami)
+title = Vultr United States - Florida (Miami)
+host = fl-us-ping.vultr.com
+
++++ Vultr-US-Geo-Atl
+menu = Vultr United States - Georgia (Atlanta)
+title = Vultr United States - Georgia (Atlanta)
+host = ga-us-ping.vultr.com
+
++++ Vultr-US-Ill-Chi
+menu = Vultr United States - Illinois (Chicago)
+title = Vultr United States - Illinois (Chicago)
+host = il-us-ping.vultr.com
+
++++ Vultr-Can-Tor
+menu = Vultr Canada (Toronto)
+title = Vultr Canada (Toronto)
+host = tor-ca-ping.vultr.com
+
++++ Vultr-US-NY
+menu = Vultr United States (New York)
+title = Vultr United States (New York)
+host = nj-us-ping.vultr.com
+
++++ Vultr-Isr-Tel
+menu = Vultr Israel (Tel Aviv)
+title = Vultr Israel (Tel Aviv)
+host = tlv-il-ping.vultr.com
+
++++ Vultr-Swe-Sto
+menu = Vultr Sweden (Stockholm)
+title = Vultr Sweden (Stockholm)
+host = sto-se-ping.vultr.com
+
++++ Vultr-Pol-War
+menu = Vultr Poland (Warsaw)
+title = Vultr Poland (Warsaw)
+host = waw-pl-ping.vultr.com
+
++++ Vultr-Net-Ams
+menu = Vultr Netherlands (Amsterdam)
+title = Vultr Netherlands (Amsterdam)
+host = ams-nl-ping.vultr.com
+
++++ Vultr-Eng-Man
+menu = Vultr England (Manchester)
+title = Vultr England (Manchester)
+host = man-uk-ping.vultr.com
+
++++ Vultr-Ger-Fra
+menu = Vultr Germany (Frankfurt)
+title = Vultr Germany (Frankfurt)
+host = fra-de-ping.vultr.com
+
++++ Vultr-UnK-Lon
+menu = Vultr United Kingdom (London)
+title = Vultr United Kingdom (London)
+host = lon-gb-ping.vultr.com
+
++++ Vultr-Ita-Mil
+menu = Vultr Italy (Milan)
+title = Vultr Italy (Milan)
+host = mxp-it-ping.vultr.com
+
++++ Vultr-Fra-Par
+menu = Vultr France (Paris)
+title = Vultr France (Paris)
+host = par-fr-ping.vultr.com
+
++++ Vultr-Spa-Mad
+menu = Vultr Spain (Madrid)
+title = Vultr Spain (Madrid)
+host = mad-es-ping.vultr.com
+
+# -----------------------------------------------
+# CDN / Major Services
+# -----------------------------------------------
++ CDN
+menu = CDN & Services
+title = CDN & Major Cloud Services
+
+++ Cloudflare
+menu = Cloudflare
+title = Cloudflare
+host = cloudflare.com
+
+++ Amazon-Web-Services
+menu = Amazon Web Services
+title = Amazon Web Services
+host = aws.amazon.com
+
+++ Microsoft-Azure
+menu = Microsoft Azure
+title = Microsoft Azure
+host = azure.microsoft.com
+
+++ Fastly
+menu = Fastly
+title = Fastly
+host = fastly.com
+
+++ Akamai
+menu = Akamai
+title = Akamai
+host = www.akamai.com
+# -----------------------------------------------
+# Local network — edit to suit your setup
+# -----------------------------------------------
++ Local
+menu = Local Network
+title = Local Network Targets
+
+++ Main-Router
+menu = Router (Deco X50)
+title = Router (Deco X50)
+host = 192.168.68.1
+
+++ Extender-Router
+menu = Extender (Deco X50)
+title = Extender (Deco X50)
+host = 192.168.71.250
