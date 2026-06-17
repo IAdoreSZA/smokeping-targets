@@ -324,6 +324,179 @@ menu = Vultr Spain (Madrid)
 title = Vultr Spain (Madrid)
 host = mad-es-ping.vultr.com
 
+++ Linode-Akamai
+menu = Linode/Akamai
+title = Linode/Akamai
+
++++ Linode-US-Geo-Atl
+menu = Linode United States - Georgia (Atlanta)
+title = Linode United States - Georgia (Atlanta)
+host = speedtest.atlanta.linode.com
+
++++ Linode-US-Ill-Chi
+menu = Linode United States - Illinois (Chicago)
+title = Linode United States - Illinois (Chicago)
+host = speedtest.chicago.linode.com
+
++++ Linode-US-Tex-Dal
+menu = Linode United States - Texas (Dallas)
+title = Linode United States - Texas (Dallas)
+host = speedtest.dallas.linode.com
+
++++ Linode-US-Cal-Fre
+menu = Linode United States - California (Fremont)
+title = Linode United States - California (Fremont)
+host = speedtest.fremont.linode.com
+
++++ Linode-US-Cal-LoA
+menu = Linode United States - California (Los Angeles)
+title = Linode United States - California (Los Angeles)
+host = speedtest.los-angeles.linode.com
+
++++ Linode-US-Flo-Mia
+menu = Linode United States - Flordia (Miami)
+title = Linode United States - Flordia (Miami)
+host = speedtest.miami.linode.com
+
++++ Linode-US-NeJ-New
+menu = Linode United States - New Jersey (Newark)
+title = Linode United States - New Jersey (Newark)
+host = speedtest.newark.linode.com
+
++++ Linode-Bra-Sao
+menu = Linode Brazil (São Paulo)
+title = Linode Brazil (São Paulo)
+host = speedtest.sao-paulo.linode.com
+
++++ Linode-US-Was-Sea
+menu = Linode United States - Washington (Seattle)
+title = Linode United States - Washington (Seattle)
+host = speedtest.seattle.linode.com
+
++++ Linode-Can-Tor
+menu = Linode Canada (Toronto)
+title = Linode Canada (Toronto)
+host = speedtest.toronto1.linode.com
+
++++ Linode-US-DC-Was
+menu = Linode United States - District of Columbia (Washington)
+title = Linode United States - District of Columbia (Washington)
+host = speedtest.washington.linode.com
+
++++ Linode-Net-Ams
+menu = Linode Netherlands (Amsterdam)
+title = Linode Netherlands (Amsterdam)
+host = speedtest.amsterdam.linode.com
+
++++ Linode-Ger-Fra
+menu = Linode Germany (Frankfurt)
+title = Linode Germany (Frankfurt)
+host = speedtest.frankfurt.linode.com
+
++++ Linode-Ger-Fra-Exp
+menu = Linode Germany (Frankfurt Expansion)
+title = Linode Germany (Frankfurt Expansion)
+host = de-fra-2.speedtest.linode.com
+
++++ Linode-UK-Lon
+menu = Linode United Kingdom (London)
+title = Linode United Kingdom (London)
+host = speedtest.london.linode.com
+
++++ Linode-UK-Lon-Exp
+menu = Linode United Kingdom (London Expansion)
+title = Linode United Kingdom (London Expansion)
+host = gb-lon.speedtest.linode.com
+
++++ Linode-Spa-Mad
+menu = Linode Spain (Madrid)
+title = Linode Spain (Madrid)
+host = speedtest.madrid.linode.com
+
++++ Linode-Ita-Mil
+menu = Linode Italy (Milan)
+title = Linode Italy (Milan)
+host = speedtest.milan.linode.com
+
++++ Linode-Fra-Par
+menu = Linode France (Paris)
+title = Linode France (Paris)
+host = speedtest.paris.linode.com
+
++++ Linode-Swe-Sto
+menu = Linode Sweden (Stockholm)
+title = Linode Sweden (Stockholm)
+host = speedtest.stockholm.linode.com
+
++++ Linode-Ind-Che
+menu = Linode India (Chennai)
+title = Linode India (Chennai)
+host = speedtest.chennai.linode.com
+
++++ Linode-Ind-Jak
+menu = Linode Indonesia (Jakarta)
+title = Linode Indonesia (Jakarta)
+host = speedtest.jakarta.linode.com
+
++++ Linode-Ind-Mum
+menu = Linode India (Mumbai)
+title = Linode India (Mumbai)
+host = speedtest.mumbai1.linode.com
+
++++ Linode-Ind-Mum-Exp
+menu = Linode India (Mumbai Expansion)
+title = Linode India (Mumbai Expansion)
+host = in-bom-2.speedtest.linode.com
+
++++ Linode-Jap-Osa
+menu = Linode Japan (Osaka)
+title = Linode Japan (Osaka)
+host = speedtest.osaka.linode.com
+
++++ Linode-Sin
+menu = Linode Singapore
+title = Linode Singapore
+host = speedtest.singapore.linode.com
+
++++ Linode-Sin-Exp
+menu = Linode Singapore Expansion
+title = Linode Singapore Expansion
+host = sg-sin-2.speedtest.linode.com
+
++++ Linode-Jap-Tok
+menu = Linode Japan (Tokyo)
+title = Linode Japan (Tokyo)
+host = speedtest.tokyo2.linode.com
+
++++ Linode-Jap-Tok-Exp
+menu = Linode Japan (Tokyo Expansion)
+title = Linode Japan (Tokyo Expansion)
+host = jp-tyo-3.speedtest.linode.com
+
++++ Linode-Aus-Mel
+menu = Linode Australia (Melbourne)
+title = Linode Australia (Melbourne)
+host = au-mel.speedtest.linode.com
+
++++ Linode-Aus-Syd
+menu = Linode Australia (Sydney)
+title = Linode Australia (Sydney)
+host = speedtest.sydney.linode.com
+
+++ Quic
+menu = Quic
+title = Quic
+
+#+++ Quic-Compute-Akl
+#menu = Quic Compute Auckland
+#title = Quic Compute Auckland
+#host =  
+
+#+++ Quic-Compute-Chc
+#menu = Quic Compute Christchurch
+#title = Quic Compute Christchurch
+#host = 
+
 # -----------------------------------------------
 # CDN / Major Services
 # -----------------------------------------------
@@ -355,12 +528,25 @@ host = fastly.com
 menu = Akamai
 title = Akamai
 host = www.akamai.com
+
 # -----------------------------------------------
-# Local network — edit to suit your setup
+# Friends network stuff
 # -----------------------------------------------
-+ Local
++ Friends
+menu = Friends
+title = Friends 
+
+++ Samothy-Ott-Quic
+menu = Sam Whitianga Quic
+title = Sam Whitianga Quic
+host = rtr.sjh.at
+
+# -----------------------------------------------
+# Misc network stuff
+# -----------------------------------------------
++ Local-Network
 menu = Local Network
-title = Local Network Targets
+title = Local Network
 
 ++ Main-Router
 menu = Router (Deco X50)
