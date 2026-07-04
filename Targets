@@ -500,6 +500,107 @@ title = Quic
 # -----------------------------------------------
 # CDN / Major Services
 # -----------------------------------------------
++VPNs
+menu = VPN Servers
+title VPN Servers
+
+++ IVPN
+menu = IVPN
+title = IVPN
+
++++ IVPN-Arg-BuA-WG-One
+menu = IVPN Argentina (Buenos Aires)
+title = IVPN Argentina (Buenos Aires)
+host = ar1.wg.ivpn.net
+
++++ IVPN-Aus-Syd-WG-One
+menu = IVPN Australia (Sydney) 1
+title = IVPN Australia (Sydney) 1
+host = au-nsw1.wg.ivpn.net
+
++++ IVPN-Aus-Syd-WG-Two
+menu = IVPN Australia (Sydney) 2
+title = IVPN Australia (Sydney) 2
+host = au-nsw2.wg.ivpn.net
+
++++ IVPN-Aust-Vie-WG-One
+menu = IVPN Austria (Vienna) 1
+title = IVPN Austria (Vienna) 1
+host = at1.wg.ivpn.net
+
++++ IVPN-Aust-Vie-WG-Two
+menu = IVPN Austria (Vienna) 2
+title = IVPN Austria (Vienna) 2
+host = at2.wg.ivpn.net
+
++++ IVPN-Bel-Bru-WG-One
+menu = IVPN Belgium (Brussels) 1
+title = IVPN Belgium (Brussels) 1
+host = be1.wg.ivpn.net
+
++++ IVPN-Bel-Bru-WG-Two
+menu = IVPN Belgium (Brussels) 2
+title = IVPN Belgium (Brussels) 2
+host = be2.wg.ivpn.net
+
++++ IVPN-Bra-Fra-WG-One
+menu = IVPN Brazil (Franca)
+title = IVPN Belgium (Franca)
+host = br1.wg.ivpn.net
+
++++ IVPN-Bul-Sof-WG-One
+menu = IVPN Bulgaria (Sofia)
+title = IVPN Bulgaria (Sofia)
+host = bg1.wg.ivpn.net 
+
++++ IVPN-Can-Mon-WG-One
+menu = IVPN Canada (Montreal) 1
+title = IVPN Canada (Montreal) 1
+host = ca-qc1.wg.ivpn.net
+
++++ IVPN-Can-Mon-WG-Two
+menu = IVPN Canada (Montreal) 2
+title = IVPN Canada (Montreal) 2
+host = ca-qc2.wg.ivpn.net
+
++++ IVPN-Can-Tor-WG-One
+menu = IVPN Canada (Toronto) 1
+title = IVPN Canada (Toronto) 1
+host = ca-on1.wg.ivpn.net
+
++++ IVPN-Can-Tor-WG-Two
+menu = IVPN Canada (Toronto) 2
+title = IVPN Canada (Toronto) 2
+host = ca-on2.wg.ivpn.net
+
++++ IVPN-Can-Van-WG-One
+menu = IVPN Canada (Vancouver)
+title = IVPN Canada (Vancouver)
+host = ca-bc1.wg.ivpn.net 
+
++++ IVPN-Cro-Zag-WG-One
+menu = IVPN Croatia (Zagreb)
+title = IVPN Croatia (Zagreb)
+host = hr1.wg.ivpn.net
+
++++ IVPN-CzeRep-Pra-WG-One
+menu = IVPN Czech Republic (Prague)
+title = IVPN Czech Republic (Prague)
+host = cz1.wg.ivpn.net
+
++++ IVPN-Den-Cop-WG-One
+menu = IVPN Denmark (Copenhagen) 1
+title = IVPN Denmark (Copenhagen) 1
+host = dk1.wg.ivpn.net
+
++++ IVPN-Den-Cop-WG-Two
+menu = IVPN Denmark (Copenhagen) 2
+title = IVPN Denmark (Copenhagen) 2
+host = dk2.wg.ivpn.net
+
+# -----------------------------------------------
+# CDN / Major Services
+# -----------------------------------------------
 + CDN
 menu = CDN & Services
 title = CDN & Major Cloud Services
