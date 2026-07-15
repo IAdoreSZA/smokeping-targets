@@ -502,7 +502,7 @@ title = Quic
 # -----------------------------------------------
 +VPNs
 menu = VPN Servers
-title VPN Servers
+title = VPN Servers
 
 ++ IVPN
 menu = IVPN
@@ -598,6 +598,361 @@ menu = IVPN Denmark (Copenhagen) 2
 title = IVPN Denmark (Copenhagen) 2
 host = dk2.wg.ivpn.net
 
++++ IVPN-Fin-Hel-WG-One
+menu = IVPN Finland (Helsinki) 
+title = IVPN Finland (Helsinki)
+host = fi1.wg.ivpn.net
+
++++ IVPN-Fra-Par-WG-One
+menu = IVPN France (Paris)
+title = IVPN France (Paris)
+host = fr1.wg.ivpn.net
+
++++ IVPN-Ger-Fra-WG-Two
+menu = IVPN Germany (Frankfurt) 1
+title = IVPN Germany (Frankfurt) 1 
+host = de2.wg.ivpn.net
+
++++ IVPN-Ger-Fra-WG-Three
+menu = IVPN Germany (Frankfurt) 2
+title = IVPN Germany (Frankfurt) 2
+host = de3.wg.ivpn.net
+
++++ IVPN-Ger-Fra-WG-Four
+menu = IVPN Germany (Frankfurt) 3
+title = IVPN Germany (Frankfurt) 3
+host = de4.wg.ivpn.net
+
++++ IVPN-Gre-Ath-WG-One
+menu = IVPN Greece (Athens)
+title = IVPN Greece (Athens)
+host = gr1.wg.ivpn.net
+
++++ IVPN-HonKon-HonKon-WG-Two
+menu = IVPN Hong Kong (Hong Kong) 1
+title = IVPN Hong Kong (Hong Kong) 1
+host = hk2.wg.ivpn.net
+
++++ IVPN-HonKon-HonKon-WG-Three
+menu = IVPN Hong Kong (Hong Kong) 2
+title = IVPN Hong Kong (Hong Kong) 2
+host = hk3.wg.ivpn.net
+
++++ IVPN-Hun-Bud-WG-One
+menu = IVPN Hungary (Budapest)
+title = IVPN Hungary (Budapest)
+host = hu1.wg.ivpn.net 
+
++++ IVPN-Ice-Rey-WG-Two
+menu = IVPN Iceland (Reykjavik) 1
+title = IVPN Iceland (Reykjavik) 1
+host = is2.wg.ivpn.net
+
++++ IVPN-Ice-Rey-WG-Three
+menu = IVPN Iceland (Reykjavik) 2
+title = IVPN Iceland (Reykjavik) 2
+host = is3.wg.ivpn.net
+
++++ IVPN-Ire-Dub-WG-One
+menu = IVPN Ireland (Dublin)
+title = IVPN Ireland (Dublin)
+host = ie1.wg.ivpn.net
+
++++ IVPN-Isr-TelAvi-WG-One
+menu = IVPN Israel (Tel Aviv)
+title = IVPN Israel (Tel Aviv)
+host = il1.wg.ivpn.net
+
++++ IVPN-Ita-Mil-WG-Two
+menu = IVPN Italy (Milan)
+title = IVPN Italy (Milan)
+host = it2.wg.ivpn.net
+
++++ IVPN-Jap-Tok-WG-Two
+menu = IVPN Japan (Tokyo)
+title = IVPN Japan (Toyko)
+host = jp2.wg.ivpn.net
+
++++ IVPN-Lux-Lux-WG-Two
+menu = IVPN Luxembourg
+title = IVPN Luxembourg
+host = lu2.wg.ivpn.net
+
++++ IVPN-Mal-KuaLum-WG-One
+menu = IVPN Malaysia (Kuala Lumpur)
+title = IVPN Malaysia (Kuala Lumpur)
+host = my1.wg.ivpn.net
+
++++ IVPN-Mex-Que-WG-One
+menu = IVPN Mexico (Querétaro)
+title = IVPN Mexico (Querétaro)
+host = mx1.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Two
+menu = IVPN Netherlands (Amsterdam) 1
+title = IVPN Netherlands (Amsterdam) 1
+host = nl2.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Three
+menu = IVPN Netherlands (Amsterdam) 2
+title = IVPN Netherlands (Amsterdam) 2
+host = nl3.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Four
+menu = IVPN Netherlands (Amsterdam) 3
+title = IVPN Netherlands (Amsterdam) 3
+host = nl4.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Five
+menu = IVPN Netherlands (Amsterdam) 4
+title = IVPN Netherlands (Amsterdam) 4
+host = nl5.wg.ivpn.net 
+
++++ IVPN-Net-Ams-WG-Six
+menu = IVPN Netherlands (Amsterdam) 5
+title = IVPN Netherlands (Amsterdam) 5
+host = nl6.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Seven
+menu = IVPN Netherlands (Amsterdam) 6
+title = IVPN Netherlands (Amsterdam) 6
+host = nl7.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Eight
+menu = IVPN Netherlands (Amsterdam) 7
+title = IVPN Netherlands (Amsterdam) 7
+host = nl8.wg.ivpn.net
+
++++ IVPN-Nor-Osl-WG-One
+menu = IVPN Norway (Oslo)
+title = IVPN Norway (Oslo) 
+host = no1.wg.ivpn.net
+
++++ IVPN-Per-Lim-WG-One
+menu = IVPN Peru (Lima)
+title = IVPN Peru (Lima)
+host = pe1.wg.ivpn.net
+
++++ IVPN-Pol-War-WG-One
+menu = IVPN Poland (Warsaw)
+title = IVPN Poland (Warsaw)
+host = pl1.wg.ivpn.net
+
++++ IVPN-Por-Lis-WG-One
+menu = IVPN Portugal (Lisbon)
+title = IVPN Portugal (Lisbon)
+host = pt1.wg.ivpn.net
+
++++ IVPN-Rom-Buc-WG-One
+menu = IVPN Romania (Bucharest)
+title = IVPN Romania (Bucharest)
+host = ro1.wg.ivpn.net
+
++++ IVPN-Ser-Bel-WG-One
+menu = IVPN Serbia (Belgrade)
+title = IVPN Serbia (Belgrade)
+host = rs1.wg.ivpn.net
+
++++ IVPN-Sin-Sin-WG-One
+menu = IVPN Singapore 1 
+title = IVPN Singapore 1
+host = sg1.wg.ivpn.net
+
++++ IVPN-Sin-Sin-WG-Two
+menu = IVPN Singapore 2
+title = IVPN Singapore 2
+host = sg2.wg.ivpn.net
+
++++ IVPN-Slo-Bra-WG-Two
+menu = IVPN Slovakia (Bratislava)
+title = IVPN Slovakia (Bratislava)
+host = sk2.wg.ivpn.net
+
++++ IVPN-SouAfr-Joh-WG-One
+menu = IVPN South Africa (Johannesburg)
+title = IVPN South Africa (Johannesburg)
+host = za1.wg.ivpn.net
+
++++ IVPN-Spa-Mad-WG-One
+menu = IVPN Spain (Madrid)
+title = IVPN Spain (Madrid)
+host = es1.wg.ivpn.net
+
++++ IVPN-Swe-Sto-WG-One
+menu = IVPN Sweden (Stockholm) 1
+title = IVPN Sweden (Stockholm) 1
+host = se1.wg.ivpn.net
+
++++ IVPN-Swe-Sto-WG-Two
+menu = IVPN Sweden (Stockholm) 2
+title = IVPN Sweden (Stockholm) 2
+host = se2.wg.ivpn.net
+
++++ IVPN-Swi-Zur-WG-One
+menu = IVPN Switzerland (Zurich) 1
+title = IVPN Switzerland (Zurich) 1
+host = ch1.wg.ivpn.net
+
++++ IVPN-Swi-Zur-WG-Two
+menu = IVPN Switzerland (Zurich) 2
+title = IVPN Switzerland (Zurich) 2
+host = ch2.wg.ivpn.net
+
++++ IVPN-Swi-Zur-WG-Three
+menu = IVPN Switzerland (Zurich) 3
+title = IVPN Switzerland (Zurich) 3
+host = ch3.wg.ivpn.net
+
++++ IVPN-Tai-Tai-WG-One
+menu = IVPN Taiwan (Taipei)
+title = IVPN Taiwan (Taipei)
+host = tw1.wg.ivpn.net
+
++++ IVPN-Ukr-Kyi-WG-Two
+menu = IVPN Ukraine (Kyiv)
+title = IVPN Ukraine (Kyiv)
+host = ua2.wg.ivpn.net
+
++++ IVPN-UniKin-Lon-WG-One
+menu = IVPN United Kingdom (London) 1
+title = IVPN United Kingdom (London) 1
+host = gb1.wg.ivpn.net
+
++++ IVPN-UniKin-Lon-WG-Two
+menu = IVPN United Kingdom (London) 2
+title = IVPN United Kingdom (London) 2
+host = gb2.wg.ivpn.net
+
++++ IVPN-UniKin-Lon-WG-Three
+menu = IVPN United Kingdom (London) 3 
+title = IVPN United Kingdom (London) 3
+host = gb3.wg.ivpn.net
+
++++ IVPN-UniKin-Man-WG-One
+menu = IVPN United Kingdom (Manchester)
+title = IVPN United Kingdom (Manchester)
+host = gb-man1.wg.ivpn.net
+
++++ IVPN-US-Vir-Ash-WG-One
+menu = IVPN United States - Virginia (Ashburn)
+title = IVPN United States - Virginia (Ashburn)
+host = us-va1.wg.ivpn.net
+
++++ IVPN-US-Geo-Atl-WG-Three
+menu = IVPN United States - Georgia (Atlanta) 1
+title = IVPN United States - Georgia (Atlanta) 1
+host = us-ga3.wg.ivpn.net
+
++++ IVPN-US-Geo-Atl-WG-Five
+menu = IVPN United States - Georgia (Atlanta) 2
+title = IVPN United States - Georgia (Atlanta) 2
+host = us-ga5.wg.ivpn.net
+
++++ IVPN-US-Mas-Bos-WG-One
+menu = IVPN United States - Massachusetts (Boston)
+title = IVPN United States - Massachusetts (Boston)
+host = us-ma1.wg.ivpn.net
+
++++ IVPN-US-Ill-Chi-WG-Three
+menu = IVPN United States - Illinois (Chicago) 1
+title = IVPN United States - Illinois (Chicago) 1
+host = us-il3.wg.ivpn.net 
+
++++ IVPN-US-Ill-Chi-WG-Four
+menu = IVPN United States - Illinois (Chicago) 2
+title = IVPN United States - Illinois (Chicago) 2
+host = us-il4.wg.ivpn.net
+
++++ IVPN-US-Ill-Chi-WG-Five
+menu = IVPN United States - Illinois (Chicago) 3
+title = IVPN United States - Illinois (Chicago) 3
+host = us-il5.wg.ivpn.net 
+
++++ IVPN-US-Tex-Dal-WG-Four
+menu = IVPN United States - Texas (Dallas) 1
+title = IVPN United States - Texas (Dallas) 1
+host = us-tx4.wg.ivpn.net
+
++++ IVPN-US-Tex-Dal-WG-Six
+menu = IVPN United States - Texas (Dallas) 2
+title = IVPN United States - Texas (Dallas) 2
+host = us-tx6.wg.ivpn.net
+
++++ IVPN-US-Col-Den-WG-One
+menu = IVPN United States - Colorado (Denver)
+title = IVPN United States - Colorado (Denver)
+host = us-co1.wg.ivpn.net
+
++++ IVPN-US-Nev-LasVeg-WG-One
+menu = IVPN United States - Nevada (Las Vegas)
+title = IVPN United States - Nevada (Las Vegas)
+host = us-nv1.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Three
+menu = IVPN United States - California (Los Angeles) 1
+title = IVPN United States - California (Los Angeles) 1
+host = us-ca3.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Five
+menu = IVPN United States - California (Los Angeles) 2
+title = IVPN United States - California (Los Angeles) 2
+host = us-ca5.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Six
+menu = IVPN United States - California (Los Angeles) 3
+title = IVPN United States - California (Los Angeles) 3
+host = us-ca6.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Seven
+menu = IVPN United States - California (Los Angeles) 4
+title = IVPN United States - California (Los Angeles) 4
+host = us-ca7.wg.ivpn.net
+
++++ IVPN-US-Flo-Mia-WG-Two
+menu = IVPN United States - Florida (Miami)
+title = IVPN United States - Florida (Miami)
+host = us-fl2.wg.ivpn.net
+
++++ IVPN-US-NewYor-NewYor-WG-Two
+menu = IVPN United States - New York 1
+title = IVPN United States - New York 1
+host = us-ny2.wg.ivpn.net
+
++++ IVPN-US-NewYor-NewYor-WG-Three
+menu = IVPN United States - New York 2
+title = IVPN United States - New York 2
+host = us-ny3.wg.ivpn.net
+
++++ IVPN-US-NewYor-NewYor-WG-Four
+menu = IVPN United States - New York 3
+title = IVPN United States - New York 3
+host = us-ny4.wg.ivpn.net
+
++++ IVPN-US-Ari-Pho-WG-Two
+menu = IVPN United States - Arizona (Phoenix)
+title = IVPN United States - Arizona (Phoenix)
+host = us-az2.wg.ivpn.net
+
++++ IVPN-US-Uta-SalLakCit-WG-Two
+menu = IVPN United States - Utah (Salt Lake City)
+title = IVPN United States - Utah (Salt Lake City)
+host = us-ut2.wg.ivpn.net
+
++++ IVPN-US-Cal-SanJos-WG-One
+menu = IVPN United States - California (San Jose)
+title = IVPN United States - California (San Jose)
+host = us-ca-sjc1.wg.ivpn.net
+
++++ IVPN-US-Was-Sea-WG-Two
+menu = IVPN United States - Washington (Seattle)
+title = IVPN United States - Washington (Seattle)
+host = us-wa2.wg.ivpn.net
+
++++ IVPN-US-NewJer-Sec-WG-Four
+menu = IVPN United States - New Jersey (Secaucus)
+title = IVPN United States - New Jersey (Secaucus)
+host = us-nj4.wg.ivpn.net
+
 # -----------------------------------------------
 # CDN / Major Services
 # -----------------------------------------------
@@ -637,9 +992,9 @@ host = www.akamai.com
 menu = Friends
 title = Friends 
 
-++ Samothy-Ott-Quic
-menu = Sam Whitianga Quic
-title = Sam Whitianga Quic
+++ Samothy-Ott
+menu = Sam Whitianga
+title = Sam Whitianga
 host = rtr.sjh.at
 
 # -----------------------------------------------
