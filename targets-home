@@ -954,38 +954,6 @@ title = IVPN United States - New Jersey (Secaucus)
 host = us-nj4.wg.ivpn.net
 
 # -----------------------------------------------
-# CDN / Major Services
-# -----------------------------------------------
-+ CDN
-menu = CDN & Services
-title = CDN & Major Cloud Services
-
-++ Cloudflare
-menu = Cloudflare
-title = Cloudflare
-host = cloudflare.com
-
-++ Amazon-Web-Services
-menu = Amazon Web Services
-title = Amazon Web Services
-host = aws.amazon.com
-
-++ Microsoft-Azure
-menu = Microsoft Azure
-title = Microsoft Azure
-host = azure.microsoft.com
-
-++ Fastly
-menu = Fastly
-title = Fastly
-host = fastly.com
-
-++ Akamai
-menu = Akamai
-title = Akamai
-host = www.akamai.com
-
-# -----------------------------------------------
 # Friends network stuff
 # -----------------------------------------------
 + Friends
@@ -1000,9 +968,9 @@ host = rtr.sjh.at
 # -----------------------------------------------
 # Misc network stuff
 # -----------------------------------------------
-+ Local-Network
-menu = Local Network
-title = Local Network
++ My-Stuff
+menu = My Network Stuff
+title = My Network Stuff
 
 ++ Main-Router
 menu = Router (Deco X50)
@@ -1013,3 +981,18 @@ host = 192.168.68.1
 menu = Extender (Deco X50)
 title = Extender (Deco X50)
 host = 192.168.71.250
+
+++ Quic-Auckland-Box
+menu = Quic Auckland VPS
+title = Quic Auckland VPS
+host = auckland.ias.nz
+
+++ Quic-Christchurch-Box
+menu = Quic Christchurch VPS
+title = Quic Christchurch VPS
+host = christchurch.ias.nz
+
+++ DigitalOcean-Sydney-Box
+menu = DigitalOcean Sydney VPS
+title = DigitalOcean Sydney VPS
+host = sydney.ias.nz

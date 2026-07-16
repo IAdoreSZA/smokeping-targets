@@ -1,0 +1,988 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Monitor
+remark = SmokePing latency monitor — powered by Docker
+
+# -----------------------------------------------
+# DNS Resolvers
+# -----------------------------------------------
++ DNS
+menu = DNS Resolvers
+title = Public DNS Resolvers
+
+++ Cloudflare-Primary
+menu = Cloudflare DNS - Primary
+title = Cloudflare DNS - Primary (1.1.1.1)
+host = 1.1.1.1
+
+++ Cloudflare-Secondary
+menu = Cloudflare DNS - Secondary
+title = Cloudflare DNS - Secondary (1.0.0.1)
+host = 1.0.0.1
+
+++ Google-Primary
+menu = Google DNS - Primary
+title = Google DNS - Primary (8.8.8.8)
+host = 8.8.8.8
+
+++ Google-Secondary
+menu = Google DNS - Secondary
+title = Google DNS - Secondary (8.8.4.4)
+host = 8.8.4.4
+
+++ NextDNS-Primary
+menu = NextDNS DNS - Primary
+title = NextDNS DNS - Primary (45.90.28.217)
+host = 45.90.28.217
+
+++ NextDNS-Secondary
+menu = NextDNS DNS - Secondary
+title = NextDNS DNS - Secondary (45.90.30.217)
+host = 45.90.30.217
+
+++ ControlD-Primary
+menu = Control D - Primary
+title = Control D - Primary (76.76.2.0)
+host = 76.76.2.0
+
+++ ControlD-Secondary
+menu = Control D - Secondary
+title = Control D - Secondary (76.76.10.0)
+host = 76.76.10.0
+
+++ Quad9-Primary
+menu = Quad9 DNS - Primary
+title = Quad9 DNS - Primary (9.9.9.9)
+host = 9.9.9.9
+
+++ Quad9-Secondary
+menu = Quad9 DNS - Secondary
+title = Quad9 DNS - Secondary (149.112.112.112)
+host = 149.112.112.112
+
+++ Adguard-Primary
+menu = Adguard DNS - Primary
+title = Adguard DNS - Primary (94.140.14.14)
+host = 94.140.14.14
+
+++ Adguard-Secondary
+menu = Adguard DNS - Secondary
+title = Adguard DNS - Secondary (94.140.15.15)
+host = 94.140.15.15
+
+++ FlashStart-Primary
+menu = FlashStart DNS - Primary
+title = FlashStart DNS - Primary (185.236.104.104)
+host = 185.236.104.104
+
+++ FlashStart-Secondary
+menu = FlashStart DNS - Secondary
+title = FlashStart DNS - Secondary (185.236.105.105)
+host = 185.236.105.105
+
+++ CleanBrowsing-Primary
+menu = CleanBrowsing DNS - Primary 
+title = CleanBrowsing DNS - Primary (185.228.168.168)
+host = 185.228.168.168
+
+++ CleanBrowsing-Secondary
+menu = CleanBrowsing DNS - Secondary 
+title = CleanBrowsing DNS - Secondary (185.228.169.168)
+host = 185.228.169.168
+
+++ OpenDNS-Primary
+menu = OpenDNS DNS - Primary
+title = OpenDNS DNS - Primary (208.67.222.222)
+host = 208.67.222.222
+
+++ OpenDNS-Secondary
+menu = OpenDNS DNS - Secondary
+title = OpenDNS DNS - Seconary (208.67.220.220)
+host = 208.67.220.220
+
+++ Mullvad-Primary
+menu = Mullvad DNS
+title = Mullvad DNS (194.242.2.2)
+host = 194.242.2.2
+
+++ LibreDNS-Primary
+menu = LibreDNS DNS - Primary
+title = LibreDNS DNS - Primary (116.202.176.26)
+host = 116.202.176.26
+
+++ LibreDNS-Secondary
+menu = LibreDNS DNS - Secondary
+title = LibreDNS DNS - Secondary (147.135.76.183)
+host = 147.135.76.183
+
+++ Comcast-Xfinity-Primary
+menu = Comcast Xfinity DNS - Primary
+title = Comcast Xfinity DNS - Primary (75.75.75.75)
+host = 75.75.75.75
+
+++ Comcast-Xfinity-Secondary
+menu = Comcast Xfinity DNS - Secondary
+title = Comcast Xfinity DNS - Secondary (75.75.76.76)
+host = 75.75.76.76
+
+++ AliDNS-Primary
+menu = AliDNS DNS - Primary
+title = AliDNS DNS - Primary (223.5.5.5)
+host = 223.5.5.5
+
+++ AliDNS-Secondary
+menu = AliDNS DNS - Secondary
+title = AliDNS DNS - Secondary (223.6.6.6)
+host = 223.6.6.6
+
+++ NordVPN-Primary
+menu = NordVPN DNS - Primary
+title = NordVPN DNS - Primary (103.86.96.100)
+host = 103.86.96.100
+
+++ NordVPN-Secondary
+menu = NordVPN DNS - Secondary
+title = NordVPN DNS - Secondary (103.86.99.100)
+host = 103.86.99.100
+
+# -----------------------------------------------
+# Hosters
+# -----------------------------------------------
++ Hosters
+menu = Hosters
+title = Hosters
+
+++ Vultr
+menu = Vultr
+title = Vultr
+
++++ Vultr-Aus-Syd
+menu = Vultr Australia (Sydney)
+title = Vultr Australia (Sydney)
+host = syd-au-ping.vultr.com
+
++++ Vultr-Aus-Mel
+menu = Vultr Australia (Melbourne)
+title = Vultr Australia (Melbourne)
+host = mel-au-ping.vultr.com
+
++++ Vultr-US-Haw-Hon
+menu = Vultr United States - Hawaii (Honolulu)
+title = Vultr United States - Hawaii (Honolulu)
+host = hon-hi-us-ping.vultr.com
+
++++ Vultr-Sin
+menu = Vultr Singapore
+title = Vultr Singapore
+host = sgp-ping.vultr.com
+
++++ Vultr-Jap-Tok
+menu = Vultr Japan (Tokyo)
+title = Vultr Japan (Tokyo)
+host = hnd-jp-ping.vultr.com
+
++++ Vultr-Jap-Osa
+menu = Vultr Japan (Osaka)
+title = Vultr Japan (Osaka)
+host = osk-jp-ping.vultr.com
+
++++ Vultr-SoK-Seo
+menu = Vultr South Korea (Seoul)
+title = Vultr South Korea (Seoul)
+host = sel-kor-ping.vultr.com
+
++++ Vultr-Chi-San
+menu = Vultr Chile (Santiago)
+title = Vultr Chile (Santiago)
+host = scl-cl-ping.vultr.com
+
++++ Vultr-US-Cal-LoA
+menu = Vultr United States - California (Los Angeles)
+title = Vultr United States - California (Los Angeles)
+host = lax-ca-us-ping.vultr.com
+
++++ Vultr-US-Cal-Sil
+menu = Vultr United States - California (Silicon Valley)
+title = Vultr United States - California (Silicon Valley)
+host = sjo-ca-us-ping.vultr.com
+
++++ Vultr-Mex-Mex
+menu = Vultr Mexico (Mexico City)
+title = Vultr Mexico (Mexico City)
+host = mex-mx-ping.vultr.com
+
++++ Vultr-US-Was-Sea
+menu = Vultr United States - Washington (Seattle)
+title = Vultr United States - Washington (Seattle) 
+host = wa-us-ping.vultr.com
+
++++ Vultr-Ind-Ban
+menu = Vultr India (Bangalore)
+title = Vultr India (Bangalore)
+host = blr-in-ping.vultr.com
+
++++ Vultr-US-Tex-Dal
+menu = Vultr United States - Texas (Dallas)
+title = Vultr United States - Texas (Dallas)
+host = tx-us-ping.vultr.com
+
++++ Vultr-Bra-Sao
+menu = Vultr Brazil (São Paulo)
+title = Vultr Brazil (São Paulo)
+host = sao-br-ping.vultr.com
+
++++ Vultr-SoA-Joh
+menu = Vultr South Africa (Johannesburg)
+title = Vultr South Africa (Johannesburg)
+host = jnb-za-ping.vultr.com
+
++++ Vultr-Ind-Mum
+menu = Vultr India (Mumbai)
+title = Vultr India (Mumbai)
+host = bom-in-ping.vultr.com
+
++++ Vultr-Ind-DelN
+menu = Vultr India (Delhi)
+title = Vultr India (Delhi)
+host = del-in-ping.vultr.com
+
++++ Vultr-US-Flo-Mia
+menu = Vultr United States - Florida (Miami)
+title = Vultr United States - Florida (Miami)
+host = fl-us-ping.vultr.com
+
++++ Vultr-US-Geo-Atl
+menu = Vultr United States - Georgia (Atlanta)
+title = Vultr United States - Georgia (Atlanta)
+host = ga-us-ping.vultr.com
+
++++ Vultr-US-Ill-Chi
+menu = Vultr United States - Illinois (Chicago)
+title = Vultr United States - Illinois (Chicago)
+host = il-us-ping.vultr.com
+
++++ Vultr-Can-Tor
+menu = Vultr Canada (Toronto)
+title = Vultr Canada (Toronto)
+host = tor-ca-ping.vultr.com
+
++++ Vultr-US-NY
+menu = Vultr United States (New York)
+title = Vultr United States (New York)
+host = nj-us-ping.vultr.com
+
++++ Vultr-Isr-Tel
+menu = Vultr Israel (Tel Aviv)
+title = Vultr Israel (Tel Aviv)
+host = tlv-il-ping.vultr.com
+
++++ Vultr-Swe-Sto
+menu = Vultr Sweden (Stockholm)
+title = Vultr Sweden (Stockholm)
+host = sto-se-ping.vultr.com
+
++++ Vultr-Pol-War
+menu = Vultr Poland (Warsaw)
+title = Vultr Poland (Warsaw)
+host = waw-pl-ping.vultr.com
+
++++ Vultr-Net-Ams
+menu = Vultr Netherlands (Amsterdam)
+title = Vultr Netherlands (Amsterdam)
+host = ams-nl-ping.vultr.com
+
++++ Vultr-Eng-Man
+menu = Vultr England (Manchester)
+title = Vultr England (Manchester)
+host = man-uk-ping.vultr.com
+
++++ Vultr-Ger-Fra
+menu = Vultr Germany (Frankfurt)
+title = Vultr Germany (Frankfurt)
+host = fra-de-ping.vultr.com
+
++++ Vultr-UnK-Lon
+menu = Vultr United Kingdom (London)
+title = Vultr United Kingdom (London)
+host = lon-gb-ping.vultr.com
+
++++ Vultr-Ita-Mil
+menu = Vultr Italy (Milan)
+title = Vultr Italy (Milan)
+host = mxp-it-ping.vultr.com
+
++++ Vultr-Fra-Par
+menu = Vultr France (Paris)
+title = Vultr France (Paris)
+host = par-fr-ping.vultr.com
+
++++ Vultr-Spa-Mad
+menu = Vultr Spain (Madrid)
+title = Vultr Spain (Madrid)
+host = mad-es-ping.vultr.com
+
+++ Linode-Akamai
+menu = Linode/Akamai
+title = Linode/Akamai
+
++++ Linode-US-Geo-Atl
+menu = Linode United States - Georgia (Atlanta)
+title = Linode United States - Georgia (Atlanta)
+host = speedtest.atlanta.linode.com
+
++++ Linode-US-Ill-Chi
+menu = Linode United States - Illinois (Chicago)
+title = Linode United States - Illinois (Chicago)
+host = speedtest.chicago.linode.com
+
++++ Linode-US-Tex-Dal
+menu = Linode United States - Texas (Dallas)
+title = Linode United States - Texas (Dallas)
+host = speedtest.dallas.linode.com
+
++++ Linode-US-Cal-Fre
+menu = Linode United States - California (Fremont)
+title = Linode United States - California (Fremont)
+host = speedtest.fremont.linode.com
+
++++ Linode-US-Cal-LoA
+menu = Linode United States - California (Los Angeles)
+title = Linode United States - California (Los Angeles)
+host = speedtest.los-angeles.linode.com
+
++++ Linode-US-Flo-Mia
+menu = Linode United States - Flordia (Miami)
+title = Linode United States - Flordia (Miami)
+host = speedtest.miami.linode.com
+
++++ Linode-US-NeJ-New
+menu = Linode United States - New Jersey (Newark)
+title = Linode United States - New Jersey (Newark)
+host = speedtest.newark.linode.com
+
++++ Linode-Bra-Sao
+menu = Linode Brazil (São Paulo)
+title = Linode Brazil (São Paulo)
+host = speedtest.sao-paulo.linode.com
+
++++ Linode-US-Was-Sea
+menu = Linode United States - Washington (Seattle)
+title = Linode United States - Washington (Seattle)
+host = speedtest.seattle.linode.com
+
++++ Linode-Can-Tor
+menu = Linode Canada (Toronto)
+title = Linode Canada (Toronto)
+host = speedtest.toronto1.linode.com
+
++++ Linode-US-DC-Was
+menu = Linode United States - District of Columbia (Washington)
+title = Linode United States - District of Columbia (Washington)
+host = speedtest.washington.linode.com
+
++++ Linode-Net-Ams
+menu = Linode Netherlands (Amsterdam)
+title = Linode Netherlands (Amsterdam)
+host = speedtest.amsterdam.linode.com
+
++++ Linode-Ger-Fra
+menu = Linode Germany (Frankfurt)
+title = Linode Germany (Frankfurt)
+host = speedtest.frankfurt.linode.com
+
++++ Linode-Ger-Fra-Exp
+menu = Linode Germany (Frankfurt Expansion)
+title = Linode Germany (Frankfurt Expansion)
+host = de-fra-2.speedtest.linode.com
+
++++ Linode-UK-Lon
+menu = Linode United Kingdom (London)
+title = Linode United Kingdom (London)
+host = speedtest.london.linode.com
+
++++ Linode-UK-Lon-Exp
+menu = Linode United Kingdom (London Expansion)
+title = Linode United Kingdom (London Expansion)
+host = gb-lon.speedtest.linode.com
+
++++ Linode-Spa-Mad
+menu = Linode Spain (Madrid)
+title = Linode Spain (Madrid)
+host = speedtest.madrid.linode.com
+
++++ Linode-Ita-Mil
+menu = Linode Italy (Milan)
+title = Linode Italy (Milan)
+host = speedtest.milan.linode.com
+
++++ Linode-Fra-Par
+menu = Linode France (Paris)
+title = Linode France (Paris)
+host = speedtest.paris.linode.com
+
++++ Linode-Swe-Sto
+menu = Linode Sweden (Stockholm)
+title = Linode Sweden (Stockholm)
+host = speedtest.stockholm.linode.com
+
++++ Linode-Ind-Che
+menu = Linode India (Chennai)
+title = Linode India (Chennai)
+host = speedtest.chennai.linode.com
+
++++ Linode-Ind-Jak
+menu = Linode Indonesia (Jakarta)
+title = Linode Indonesia (Jakarta)
+host = speedtest.jakarta.linode.com
+
++++ Linode-Ind-Mum
+menu = Linode India (Mumbai)
+title = Linode India (Mumbai)
+host = speedtest.mumbai1.linode.com
+
++++ Linode-Ind-Mum-Exp
+menu = Linode India (Mumbai Expansion)
+title = Linode India (Mumbai Expansion)
+host = in-bom-2.speedtest.linode.com
+
++++ Linode-Jap-Osa
+menu = Linode Japan (Osaka)
+title = Linode Japan (Osaka)
+host = speedtest.osaka.linode.com
+
++++ Linode-Sin
+menu = Linode Singapore
+title = Linode Singapore
+host = speedtest.singapore.linode.com
+
++++ Linode-Sin-Exp
+menu = Linode Singapore Expansion
+title = Linode Singapore Expansion
+host = sg-sin-2.speedtest.linode.com
+
++++ Linode-Jap-Tok
+menu = Linode Japan (Tokyo)
+title = Linode Japan (Tokyo)
+host = speedtest.tokyo2.linode.com
+
++++ Linode-Jap-Tok-Exp
+menu = Linode Japan (Tokyo Expansion)
+title = Linode Japan (Tokyo Expansion)
+host = jp-tyo-3.speedtest.linode.com
+
++++ Linode-Aus-Mel
+menu = Linode Australia (Melbourne)
+title = Linode Australia (Melbourne)
+host = au-mel.speedtest.linode.com
+
++++ Linode-Aus-Syd
+menu = Linode Australia (Sydney)
+title = Linode Australia (Sydney)
+host = speedtest.sydney.linode.com
+
+++ Quic
+menu = Quic
+title = Quic
+
+#+++ Quic-Compute-Akl
+#menu = Quic Compute Auckland
+#title = Quic Compute Auckland
+#host =  
+
+#+++ Quic-Compute-Chc
+#menu = Quic Compute Christchurch
+#title = Quic Compute Christchurch
+#host = 
+
+# -----------------------------------------------
+# CDN / Major Services
+# -----------------------------------------------
++VPNs
+menu = VPN Servers
+title = VPN Servers
+
+++ IVPN
+menu = IVPN
+title = IVPN
+
++++ IVPN-Arg-BuA-WG-One
+menu = IVPN Argentina (Buenos Aires)
+title = IVPN Argentina (Buenos Aires)
+host = ar1.wg.ivpn.net
+
++++ IVPN-Aus-Syd-WG-One
+menu = IVPN Australia (Sydney) 1
+title = IVPN Australia (Sydney) 1
+host = au-nsw1.wg.ivpn.net
+
++++ IVPN-Aus-Syd-WG-Two
+menu = IVPN Australia (Sydney) 2
+title = IVPN Australia (Sydney) 2
+host = au-nsw2.wg.ivpn.net
+
++++ IVPN-Aust-Vie-WG-One
+menu = IVPN Austria (Vienna) 1
+title = IVPN Austria (Vienna) 1
+host = at1.wg.ivpn.net
+
++++ IVPN-Aust-Vie-WG-Two
+menu = IVPN Austria (Vienna) 2
+title = IVPN Austria (Vienna) 2
+host = at2.wg.ivpn.net
+
++++ IVPN-Bel-Bru-WG-One
+menu = IVPN Belgium (Brussels) 1
+title = IVPN Belgium (Brussels) 1
+host = be1.wg.ivpn.net
+
++++ IVPN-Bel-Bru-WG-Two
+menu = IVPN Belgium (Brussels) 2
+title = IVPN Belgium (Brussels) 2
+host = be2.wg.ivpn.net
+
++++ IVPN-Bra-Fra-WG-One
+menu = IVPN Brazil (Franca)
+title = IVPN Belgium (Franca)
+host = br1.wg.ivpn.net
+
++++ IVPN-Bul-Sof-WG-One
+menu = IVPN Bulgaria (Sofia)
+title = IVPN Bulgaria (Sofia)
+host = bg1.wg.ivpn.net 
+
++++ IVPN-Can-Mon-WG-One
+menu = IVPN Canada (Montreal) 1
+title = IVPN Canada (Montreal) 1
+host = ca-qc1.wg.ivpn.net
+
++++ IVPN-Can-Mon-WG-Two
+menu = IVPN Canada (Montreal) 2
+title = IVPN Canada (Montreal) 2
+host = ca-qc2.wg.ivpn.net
+
++++ IVPN-Can-Tor-WG-One
+menu = IVPN Canada (Toronto) 1
+title = IVPN Canada (Toronto) 1
+host = ca-on1.wg.ivpn.net
+
++++ IVPN-Can-Tor-WG-Two
+menu = IVPN Canada (Toronto) 2
+title = IVPN Canada (Toronto) 2
+host = ca-on2.wg.ivpn.net
+
++++ IVPN-Can-Van-WG-One
+menu = IVPN Canada (Vancouver)
+title = IVPN Canada (Vancouver)
+host = ca-bc1.wg.ivpn.net 
+
++++ IVPN-Cro-Zag-WG-One
+menu = IVPN Croatia (Zagreb)
+title = IVPN Croatia (Zagreb)
+host = hr1.wg.ivpn.net
+
++++ IVPN-CzeRep-Pra-WG-One
+menu = IVPN Czech Republic (Prague)
+title = IVPN Czech Republic (Prague)
+host = cz1.wg.ivpn.net
+
++++ IVPN-Den-Cop-WG-One
+menu = IVPN Denmark (Copenhagen) 1
+title = IVPN Denmark (Copenhagen) 1
+host = dk1.wg.ivpn.net
+
++++ IVPN-Den-Cop-WG-Two
+menu = IVPN Denmark (Copenhagen) 2
+title = IVPN Denmark (Copenhagen) 2
+host = dk2.wg.ivpn.net
+
++++ IVPN-Fin-Hel-WG-One
+menu = IVPN Finland (Helsinki) 
+title = IVPN Finland (Helsinki)
+host = fi1.wg.ivpn.net
+
++++ IVPN-Fra-Par-WG-One
+menu = IVPN France (Paris)
+title = IVPN France (Paris)
+host = fr1.wg.ivpn.net
+
++++ IVPN-Ger-Fra-WG-Two
+menu = IVPN Germany (Frankfurt) 1
+title = IVPN Germany (Frankfurt) 1 
+host = de2.wg.ivpn.net
+
++++ IVPN-Ger-Fra-WG-Three
+menu = IVPN Germany (Frankfurt) 2
+title = IVPN Germany (Frankfurt) 2
+host = de3.wg.ivpn.net
+
++++ IVPN-Ger-Fra-WG-Four
+menu = IVPN Germany (Frankfurt) 3
+title = IVPN Germany (Frankfurt) 3
+host = de4.wg.ivpn.net
+
++++ IVPN-Gre-Ath-WG-One
+menu = IVPN Greece (Athens)
+title = IVPN Greece (Athens)
+host = gr1.wg.ivpn.net
+
++++ IVPN-HonKon-HonKon-WG-Two
+menu = IVPN Hong Kong (Hong Kong) 1
+title = IVPN Hong Kong (Hong Kong) 1
+host = hk2.wg.ivpn.net
+
++++ IVPN-HonKon-HonKon-WG-Three
+menu = IVPN Hong Kong (Hong Kong) 2
+title = IVPN Hong Kong (Hong Kong) 2
+host = hk3.wg.ivpn.net
+
++++ IVPN-Hun-Bud-WG-One
+menu = IVPN Hungary (Budapest)
+title = IVPN Hungary (Budapest)
+host = hu1.wg.ivpn.net 
+
++++ IVPN-Ice-Rey-WG-Two
+menu = IVPN Iceland (Reykjavik) 1
+title = IVPN Iceland (Reykjavik) 1
+host = is2.wg.ivpn.net
+
++++ IVPN-Ice-Rey-WG-Three
+menu = IVPN Iceland (Reykjavik) 2
+title = IVPN Iceland (Reykjavik) 2
+host = is3.wg.ivpn.net
+
++++ IVPN-Ire-Dub-WG-One
+menu = IVPN Ireland (Dublin)
+title = IVPN Ireland (Dublin)
+host = ie1.wg.ivpn.net
+
++++ IVPN-Isr-TelAvi-WG-One
+menu = IVPN Israel (Tel Aviv)
+title = IVPN Israel (Tel Aviv)
+host = il1.wg.ivpn.net
+
++++ IVPN-Ita-Mil-WG-Two
+menu = IVPN Italy (Milan)
+title = IVPN Italy (Milan)
+host = it2.wg.ivpn.net
+
++++ IVPN-Jap-Tok-WG-Two
+menu = IVPN Japan (Tokyo)
+title = IVPN Japan (Toyko)
+host = jp2.wg.ivpn.net
+
++++ IVPN-Lux-Lux-WG-Two
+menu = IVPN Luxembourg
+title = IVPN Luxembourg
+host = lu2.wg.ivpn.net
+
++++ IVPN-Mal-KuaLum-WG-One
+menu = IVPN Malaysia (Kuala Lumpur)
+title = IVPN Malaysia (Kuala Lumpur)
+host = my1.wg.ivpn.net
+
++++ IVPN-Mex-Que-WG-One
+menu = IVPN Mexico (Querétaro)
+title = IVPN Mexico (Querétaro)
+host = mx1.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Two
+menu = IVPN Netherlands (Amsterdam) 1
+title = IVPN Netherlands (Amsterdam) 1
+host = nl2.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Three
+menu = IVPN Netherlands (Amsterdam) 2
+title = IVPN Netherlands (Amsterdam) 2
+host = nl3.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Four
+menu = IVPN Netherlands (Amsterdam) 3
+title = IVPN Netherlands (Amsterdam) 3
+host = nl4.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Five
+menu = IVPN Netherlands (Amsterdam) 4
+title = IVPN Netherlands (Amsterdam) 4
+host = nl5.wg.ivpn.net 
+
++++ IVPN-Net-Ams-WG-Six
+menu = IVPN Netherlands (Amsterdam) 5
+title = IVPN Netherlands (Amsterdam) 5
+host = nl6.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Seven
+menu = IVPN Netherlands (Amsterdam) 6
+title = IVPN Netherlands (Amsterdam) 6
+host = nl7.wg.ivpn.net
+
++++ IVPN-Net-Ams-WG-Eight
+menu = IVPN Netherlands (Amsterdam) 7
+title = IVPN Netherlands (Amsterdam) 7
+host = nl8.wg.ivpn.net
+
++++ IVPN-Nor-Osl-WG-One
+menu = IVPN Norway (Oslo)
+title = IVPN Norway (Oslo) 
+host = no1.wg.ivpn.net
+
++++ IVPN-Per-Lim-WG-One
+menu = IVPN Peru (Lima)
+title = IVPN Peru (Lima)
+host = pe1.wg.ivpn.net
+
++++ IVPN-Pol-War-WG-One
+menu = IVPN Poland (Warsaw)
+title = IVPN Poland (Warsaw)
+host = pl1.wg.ivpn.net
+
++++ IVPN-Por-Lis-WG-One
+menu = IVPN Portugal (Lisbon)
+title = IVPN Portugal (Lisbon)
+host = pt1.wg.ivpn.net
+
++++ IVPN-Rom-Buc-WG-One
+menu = IVPN Romania (Bucharest)
+title = IVPN Romania (Bucharest)
+host = ro1.wg.ivpn.net
+
++++ IVPN-Ser-Bel-WG-One
+menu = IVPN Serbia (Belgrade)
+title = IVPN Serbia (Belgrade)
+host = rs1.wg.ivpn.net
+
++++ IVPN-Sin-Sin-WG-One
+menu = IVPN Singapore 1 
+title = IVPN Singapore 1
+host = sg1.wg.ivpn.net
+
++++ IVPN-Sin-Sin-WG-Two
+menu = IVPN Singapore 2
+title = IVPN Singapore 2
+host = sg2.wg.ivpn.net
+
++++ IVPN-Slo-Bra-WG-Two
+menu = IVPN Slovakia (Bratislava)
+title = IVPN Slovakia (Bratislava)
+host = sk2.wg.ivpn.net
+
++++ IVPN-SouAfr-Joh-WG-One
+menu = IVPN South Africa (Johannesburg)
+title = IVPN South Africa (Johannesburg)
+host = za1.wg.ivpn.net
+
++++ IVPN-Spa-Mad-WG-One
+menu = IVPN Spain (Madrid)
+title = IVPN Spain (Madrid)
+host = es1.wg.ivpn.net
+
++++ IVPN-Swe-Sto-WG-One
+menu = IVPN Sweden (Stockholm) 1
+title = IVPN Sweden (Stockholm) 1
+host = se1.wg.ivpn.net
+
++++ IVPN-Swe-Sto-WG-Two
+menu = IVPN Sweden (Stockholm) 2
+title = IVPN Sweden (Stockholm) 2
+host = se2.wg.ivpn.net
+
++++ IVPN-Swi-Zur-WG-One
+menu = IVPN Switzerland (Zurich) 1
+title = IVPN Switzerland (Zurich) 1
+host = ch1.wg.ivpn.net
+
++++ IVPN-Swi-Zur-WG-Two
+menu = IVPN Switzerland (Zurich) 2
+title = IVPN Switzerland (Zurich) 2
+host = ch2.wg.ivpn.net
+
++++ IVPN-Swi-Zur-WG-Three
+menu = IVPN Switzerland (Zurich) 3
+title = IVPN Switzerland (Zurich) 3
+host = ch3.wg.ivpn.net
+
++++ IVPN-Tai-Tai-WG-One
+menu = IVPN Taiwan (Taipei)
+title = IVPN Taiwan (Taipei)
+host = tw1.wg.ivpn.net
+
++++ IVPN-Ukr-Kyi-WG-Two
+menu = IVPN Ukraine (Kyiv)
+title = IVPN Ukraine (Kyiv)
+host = ua2.wg.ivpn.net
+
++++ IVPN-UniKin-Lon-WG-One
+menu = IVPN United Kingdom (London) 1
+title = IVPN United Kingdom (London) 1
+host = gb1.wg.ivpn.net
+
++++ IVPN-UniKin-Lon-WG-Two
+menu = IVPN United Kingdom (London) 2
+title = IVPN United Kingdom (London) 2
+host = gb2.wg.ivpn.net
+
++++ IVPN-UniKin-Lon-WG-Three
+menu = IVPN United Kingdom (London) 3 
+title = IVPN United Kingdom (London) 3
+host = gb3.wg.ivpn.net
+
++++ IVPN-UniKin-Man-WG-One
+menu = IVPN United Kingdom (Manchester)
+title = IVPN United Kingdom (Manchester)
+host = gb-man1.wg.ivpn.net
+
++++ IVPN-US-Vir-Ash-WG-One
+menu = IVPN United States - Virginia (Ashburn)
+title = IVPN United States - Virginia (Ashburn)
+host = us-va1.wg.ivpn.net
+
++++ IVPN-US-Geo-Atl-WG-Three
+menu = IVPN United States - Georgia (Atlanta) 1
+title = IVPN United States - Georgia (Atlanta) 1
+host = us-ga3.wg.ivpn.net
+
++++ IVPN-US-Geo-Atl-WG-Five
+menu = IVPN United States - Georgia (Atlanta) 2
+title = IVPN United States - Georgia (Atlanta) 2
+host = us-ga5.wg.ivpn.net
+
++++ IVPN-US-Mas-Bos-WG-One
+menu = IVPN United States - Massachusetts (Boston)
+title = IVPN United States - Massachusetts (Boston)
+host = us-ma1.wg.ivpn.net
+
++++ IVPN-US-Ill-Chi-WG-Three
+menu = IVPN United States - Illinois (Chicago) 1
+title = IVPN United States - Illinois (Chicago) 1
+host = us-il3.wg.ivpn.net 
+
++++ IVPN-US-Ill-Chi-WG-Four
+menu = IVPN United States - Illinois (Chicago) 2
+title = IVPN United States - Illinois (Chicago) 2
+host = us-il4.wg.ivpn.net
+
++++ IVPN-US-Ill-Chi-WG-Five
+menu = IVPN United States - Illinois (Chicago) 3
+title = IVPN United States - Illinois (Chicago) 3
+host = us-il5.wg.ivpn.net 
+
++++ IVPN-US-Tex-Dal-WG-Four
+menu = IVPN United States - Texas (Dallas) 1
+title = IVPN United States - Texas (Dallas) 1
+host = us-tx4.wg.ivpn.net
+
++++ IVPN-US-Tex-Dal-WG-Six
+menu = IVPN United States - Texas (Dallas) 2
+title = IVPN United States - Texas (Dallas) 2
+host = us-tx6.wg.ivpn.net
+
++++ IVPN-US-Col-Den-WG-One
+menu = IVPN United States - Colorado (Denver)
+title = IVPN United States - Colorado (Denver)
+host = us-co1.wg.ivpn.net
+
++++ IVPN-US-Nev-LasVeg-WG-One
+menu = IVPN United States - Nevada (Las Vegas)
+title = IVPN United States - Nevada (Las Vegas)
+host = us-nv1.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Three
+menu = IVPN United States - California (Los Angeles) 1
+title = IVPN United States - California (Los Angeles) 1
+host = us-ca3.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Five
+menu = IVPN United States - California (Los Angeles) 2
+title = IVPN United States - California (Los Angeles) 2
+host = us-ca5.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Six
+menu = IVPN United States - California (Los Angeles) 3
+title = IVPN United States - California (Los Angeles) 3
+host = us-ca6.wg.ivpn.net
+
++++ IVPN-US-Cal-LosAng-WG-Seven
+menu = IVPN United States - California (Los Angeles) 4
+title = IVPN United States - California (Los Angeles) 4
+host = us-ca7.wg.ivpn.net
+
++++ IVPN-US-Flo-Mia-WG-Two
+menu = IVPN United States - Florida (Miami)
+title = IVPN United States - Florida (Miami)
+host = us-fl2.wg.ivpn.net
+
++++ IVPN-US-NewYor-NewYor-WG-Two
+menu = IVPN United States - New York 1
+title = IVPN United States - New York 1
+host = us-ny2.wg.ivpn.net
+
++++ IVPN-US-NewYor-NewYor-WG-Three
+menu = IVPN United States - New York 2
+title = IVPN United States - New York 2
+host = us-ny3.wg.ivpn.net
+
++++ IVPN-US-NewYor-NewYor-WG-Four
+menu = IVPN United States - New York 3
+title = IVPN United States - New York 3
+host = us-ny4.wg.ivpn.net
+
++++ IVPN-US-Ari-Pho-WG-Two
+menu = IVPN United States - Arizona (Phoenix)
+title = IVPN United States - Arizona (Phoenix)
+host = us-az2.wg.ivpn.net
+
++++ IVPN-US-Uta-SalLakCit-WG-Two
+menu = IVPN United States - Utah (Salt Lake City)
+title = IVPN United States - Utah (Salt Lake City)
+host = us-ut2.wg.ivpn.net
+
++++ IVPN-US-Cal-SanJos-WG-One
+menu = IVPN United States - California (San Jose)
+title = IVPN United States - California (San Jose)
+host = us-ca-sjc1.wg.ivpn.net
+
++++ IVPN-US-Was-Sea-WG-Two
+menu = IVPN United States - Washington (Seattle)
+title = IVPN United States - Washington (Seattle)
+host = us-wa2.wg.ivpn.net
+
++++ IVPN-US-NewJer-Sec-WG-Four
+menu = IVPN United States - New Jersey (Secaucus)
+title = IVPN United States - New Jersey (Secaucus)
+host = us-nj4.wg.ivpn.net
+
+# -----------------------------------------------
+# Friends network stuff
+# -----------------------------------------------
++ Friends
+menu = Friends
+title = Friends 
+
+++ Samothy-Ott
+menu = Sam Whitianga
+title = Sam Whitianga
+host = rtr.sjh.at
+
+# -----------------------------------------------
+# Misc network stuff
+# -----------------------------------------------
++ My-Stuff
+menu = My Network Stuff
+title = My Network Stuff
+
+++ Home
+menu = Home
+title = Home
+host = home.ias.nz
+
+++ Quic-Christchurch-Box
+menu = Quic Christchurch VPS
+title = Quic Christchurch VPS
+host = christchurch.ias.nz
+
+++ DigitalOcean-Sydney-Box
+menu = DigitalOcean Sydney VPS
+title = DigitalOcean Sydney VPS
+host = sydney.ias.nz
